@@ -38,3 +38,4 @@ O projeto utiliza Git e GitHub para controle de versão, seguindo uma organizaç
 - `hotfix/`: correções urgentes.
 
 São utilizados Conventional Commits e versionamento semântico por meio de tags, como `v1.0.0`.
+
