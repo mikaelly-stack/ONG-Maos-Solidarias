@@ -30,6 +30,28 @@ document.addEventListener("DOMContentLoaded", function () {
             );
         });
     }
+
+    const btnTema = document.getElementById("btn-tema");
+
+    if (btnTema) {
+        btnTema.addEventListener("click", function () {
+            document.body.classList.toggle("modo-escuro");
+
+            const modoEscuroAtivo =
+                document.body.classList.contains("modo-escuro");
+
+            btnTema.textContent = modoEscuroAtivo
+                ? "Modo claro"
+                : "Modo escuro";
+
+            btnTema.setAttribute(
+                "aria-label",
+                modoEscuroAtivo
+                    ? "Ativar modo claro"
+                    : "Ativar modo escuro"
+            );
+        });
+    }
     const dropdown = document.querySelector(".dropdown");
 
     if (dropdown) {
