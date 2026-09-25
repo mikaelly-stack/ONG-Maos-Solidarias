@@ -8,3 +8,10 @@ Projeto web desenvolvido para uma atividade acadêmica.
 - CSS3
 - JavaScript
 - Git
+
+## Estrutura
+
+- `html/`: páginas da aplicação
+- `css/`: estilos
+- `js/`: lógica JavaScript e módulos
+- `imagens/`: imagens utilizadas
