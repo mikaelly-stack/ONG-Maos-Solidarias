@@ -1,6 +1,6 @@
 # ONG Mãos Solidárias
 
-Projeto web desenvolvido para a disciplina, utilizando HTML5, CSS3 e JavaScript.
+Projeto web desenvolvido para uma atividade acadêmica.
 
 ## Tecnologias
 
