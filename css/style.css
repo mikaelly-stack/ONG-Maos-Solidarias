@@ -424,3 +424,25 @@ footer {
         margin-bottom: var(--espaco-2);
     }
 }
+
+body.modo-escuro {
+    --cor-neutra-0: #181a18;
+    --cor-neutra-100: #222522;
+    --cor-neutra-300: #3a3e3a;
+    --cor-neutra-700: #d8ddd8;
+
+    --cor-primaria: #4f8f52;
+    --cor-primaria-escura: #3d7040;
+    --cor-secundaria: #5fa663;
+    --cor-destaque: #d6a82f;
+}
+
+body.modo-escuro footer {
+    background-color: #181a18;
+    color: #d8ddd8;
+}
+
+body.modo-escuro footer a,
+body.modo-escuro footer p {
+    color: #d8ddd8;
+}
