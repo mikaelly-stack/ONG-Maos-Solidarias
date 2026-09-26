@@ -10,10 +10,10 @@ export const rotas = {
             </p>
 
             <picture>
-                <source srcset="../imagens/voluntarios.webp" type="image/webp">
+                <source srcset="imagens/voluntarios.webp" type="image/webp">
 
                 <img
-                    src="../imagens/voluntarios.jpg"
+                    src="imagens/voluntarios.jpg"
                     alt="Voluntários realizando uma ação de doação para a comunidade">
             </picture>
         </section>
@@ -73,10 +73,10 @@ export const rotas = {
                 </p>
 
                 <picture>
-                    <source srcset="../imagens/doacoes.webp" type="image/webp">
+                    <source srcset="imagens/doacoes.webp" type="image/webp">
 
                     <img
-                        src="../imagens/doacoes.jpg"
+                        src="imagens/doacoes.jpg"
                         alt="Voluntários organizando doações para a comunidade">
                 </picture>
             </article>
